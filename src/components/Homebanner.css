@@ -1,0 +1,84 @@
+.hero-image {
+    background-image: url('../assets/images/My-Image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-image-animation {
+    @media (min-width: 768px) {
+        border: 3px solid #2d2e32;
+        animation: morph 8s ease-in-out infinite;
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+        background-position: 50%;
+        transition: all 1s ease-in-out;
+    }
+}
+
+
+.text-animation span {
+    position: relative;
+}
+
+.text-animation span::before {
+    content: "Web Developer";
+    color: oklch(0.45 0.085 224.283);
+    animation: words 20s infinite;
+}
+
+.text-animation span::after {
+    content: "";
+    background-color: oklch(0.967 0.003 264.542);
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    border-left: 3px solid #fafbfc;
+    right: -8px;
+    animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor{
+    to{
+        border-left: 2px solid #6c6e71;
+    }
+}
+
+@keyframes words {
+    0%, 20% {
+        content: "Frontend Designer";
+    }
+    21%, 40% {
+        content: "Web Designer";
+    }
+    41%, 60% {
+        content: "Backend Developer";
+    }
+    61%, 80% {
+        content: "MERN Developer";
+    }
+    81%, 100% {
+        content: "FullStack Developer";
+    }
+}
+
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+
+@keyframes morph {
+    0% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+    50% {
+        border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+    }
+    
+    100% {
+        border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    }
+}

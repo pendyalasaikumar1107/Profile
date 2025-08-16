@@ -1,0 +1,40 @@
+.about-container {
+  margin: 0 auto;
+  max-width: 62rem;
+  padding: 0 2.5rem;
+}
+
+.about-content {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+}
+
+.about-image {
+  border-radius: 1.7rem;
+  height: 35rem;
+  width: 41rem;
+}
+
+.img-side__main-img {
+  border-radius: 1.7rem;
+  height: 21.875rem;
+  width: 25.625rem;
+}
+
+.img-side {
+  position: relative;
+}
+
+.text-image {
+  -webkit-animation: rotate 9s linear infinite;
+  animation: rotate 9s linear infinite;
+}
+
+@keyframes rotate {
+  100% {
+    -webkit-transform: rotate(1turn);
+    transform: rotate(1turn);
+  }
+}

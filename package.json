@@ -1,0 +1,77 @@
+{
+  "name": "saikumar-pendyala-portfolio",
+  "private": false,
+  "version": "1.0.0",
+  "description": "Saikumar Pendyala (Sai) - Full Stack Developer Portfolio. Experienced in React.js, Node.js, MERN Stack development with 4+ years of professional experience.",
+  "keywords": [
+    "Saikumar",
+    "Sai",
+    "Pendyala",
+    "Saikumar Pendyala",
+    "Pendyala Saikumar",
+    "SaikumarPendyala",
+    "PendyalaSaikumar",
+    "Sai Pendyala",
+    "Sai React Developer",
+    "Saikumar Developer",
+    "Pendyala Developer",
+    "Full Stack Developer",
+    "React Developer",
+    "Node.js Developer",
+    "MERN Stack Developer",
+    "JavaScript Developer",
+    "React.js Expert",
+    "Node.js Expert",
+    "Portfolio",
+    "Saikumar Portfolio",
+    "Pendyala Portfolio",
+    "React Portfolio",
+    "Web Developer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Full Stack Portfolio",
+    "JavaScript Portfolio",
+    "MERN Stack Portfolio",
+    "Web Development Portfolio"
+  ],
+  "author": {
+    "name": "Saikumar Pendyala",
+    "email": "contact@saikumarpendyala.com",
+    "url": "https://saikumarpendyala.com"
+  },
+  "homepage": "https://saikumar-pendyala.web.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaikumarP1107/portfolio.git"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.0",
+    "@heroicons/react": "^2.2.0",
+    "@tailwindcss/vite": "^4.0.10",
+    "firebase": "^12.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.2.0",
+    "tailwindcss": "^4.0.10"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "vite": "^6.2.0"
+  }
+}

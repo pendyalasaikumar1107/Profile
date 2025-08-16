@@ -1,0 +1,6 @@
+<svg width="250" height="120" viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+  <text font-family="Arial, sans-serif" font-weight="900">
+    <tspan x="30" y="100" font-size="150" fill="#155e75">S</tspan>
+    <tspan dx="-13" font-size="120" fill="#155e75">K</tspan>
+  </text>
+</svg>
